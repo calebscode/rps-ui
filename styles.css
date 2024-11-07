@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+#outcome {
+    font-weight: bold;
+}
+
+#rock {
+    background: blue;
+}
+
+#paper {
+    background: red;
+}
+
+#scissors {
+    background: green;
+}
